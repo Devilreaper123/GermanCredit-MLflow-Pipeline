@@ -96,5 +96,5 @@ To run this project locally:
 ---
 
 <p align="center">
-  Built and maintained by <a href="https://ronitshahu.github.io" target="_blank"><b>Ronit Shahu</b></a> — integrating AI systems, automation pipelines, and explainable financial modeling.
+  Built and maintained by <a href="https://ronitshahu.com" target="_blank"><b>Ronit Shahu</b></a> — integrating AI systems, automation pipelines, and explainable financial modeling.
 </p>
