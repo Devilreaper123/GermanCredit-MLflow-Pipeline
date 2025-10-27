@@ -1,7 +1,4 @@
-from pathlib import Path
-
-# Markdown content with added metrics section
-readme_text = """# 🧠 German Credit Risk Prediction — Cost-Sensitive ML Pipeline with MLflow
+# 🧠 German Credit Risk Prediction — Cost-Sensitive ML Pipeline with MLflow
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python">
@@ -20,13 +17,13 @@ Financial institutions face a dual challenge: maximizing approvals while minimiz
 This project demonstrates how to construct a **transparent and interpretable credit-scoring system** that balances predictive power with fairness and cost-sensitivity.
 
 **Objectives:**
-- Clean and validate the Statlog German Credit dataset.
-- Quantify feature predictive strength via **Information Value (IV)**.
-- Engineer ordinal, nominal, and numerical representations.
-- Train multiple ML models under **cost-asymmetric conditions**.
-- Quantify fairness and group disparity.
-- Apply **SHAP explainability** for model interpretation.
-- Prepare outputs for **MLflow model registration**.
+- Clean and validate the Statlog German Credit dataset  
+- Quantify feature predictive strength via **Information Value (IV)**  
+- Engineer ordinal, nominal, and numerical representations  
+- Train multiple ML models under **cost-asymmetric conditions**  
+- Quantify fairness and group disparity  
+- Apply **SHAP explainability** for model interpretation  
+- Prepare outputs for **MLflow model registration**
 
 ---
 
@@ -73,20 +70,31 @@ This project demonstrates how to construct a **transparent and interpretable cre
 
 ## 🔍 Reproducibility
 
-Clone the repository and run the pipeline end-to-end:
+To run this project locally:
 
-```bash
-git clone https://github.com/<your-username>/germancredit-mlflow-pipeline.git
-cd germancredit-mlflow-pipeline
-pip install -r requirements.txt
-python germancredit_mlflow_pipeline.py
-```
-/eda_outputs/
-├── fairness_*.csv
-├── interaction_*.csv
-├── model_ready/
-├── shap_feature_importance.csv
-└── model_results_summary.csv
+1. Clone the repository  
+   `git clone https://github.com/<your-username>/germancredit-mlflow-pipeline.git`
 
+2. Navigate to the folder  
+   `cd germancredit-mlflow-pipeline`
 
-<p align="center"> Built and maintained by <a href="https://ronitshahu.github.io" target="_blank"><b>Ronit Shahu</b></a> — integrating AI systems, automation pipelines, and explainable financial modeling. </p>
+3. Install dependencies  
+   `pip install -r requirements.txt`
+
+4. Run the pipeline  
+   `python germancredit_mlflow_pipeline.py`
+
+### Generated Outputs
+
+/eda_outputs/  
+├── fairness_*.csv  
+├── interaction_*.csv  
+├── model_ready/  
+├── shap_feature_importance.csv  
+└── model_results_summary.csv  
+
+---
+
+<p align="center">
+  Built and maintained by <a href="https://ronitshahu.github.io" target="_blank"><b>Ronit Shahu</b></a> — integrating AI systems, automation pipelines, and explainable financial modeling.
+</p>
